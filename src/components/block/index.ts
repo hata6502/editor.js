@@ -93,7 +93,7 @@ export default class Block {
    */
   public static get CSS(): {[name: string]: string} {
     return {
-      wrapper: 'ce-block',
+      wrapper: 'ce-block-for-editorjs-inline',
       wrapperStretched: 'ce-block--stretched',
       content: 'ce-block__content',
       focused: 'ce-block--focused',
