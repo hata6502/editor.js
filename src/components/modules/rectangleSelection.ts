@@ -232,6 +232,9 @@ export default class RectangleSelection extends Module {
 
     const container = UI.nodes.holder.querySelector('.' + UI.CSS.editorWrapper);
     const overlay = $.make('div', RectangleSelection.CSS.overlay, {});
+
+    overlay.contentEditable = 'false';
+
     const overlayContainer = $.make('div', RectangleSelection.CSS.overlayContainer, {});
     const overlayRectangle = $.make('div', RectangleSelection.CSS.rect, {});
 
