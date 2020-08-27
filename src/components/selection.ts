@@ -41,8 +41,8 @@ export default class SelectionUtils {
    */
   public static get CSS(): { editorWrapper: string; editorZone: string } {
     return {
-      editorWrapper: 'codex-editor',
-      editorZone: 'codex-editor__redactor',
+      editorWrapper: 'codex-editor-for-editorjs-inline',
+      editorZone: 'codex-editor-for-editorjs-inline__redactor',
     };
   }
 

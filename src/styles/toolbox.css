@@ -35,7 +35,7 @@
 /**
  * Styles for Narrow mode
  */
-.codex-editor--narrow .ce-toolbox {
+.codex-editor-for-editorjs-inline--narrow .ce-toolbox {
   @media (--not-mobile) {
     background: #fff;
     z-index: 2;

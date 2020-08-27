@@ -29,7 +29,7 @@ export default class Toolbox extends Module {
       toolboxButton: 'ce-toolbox__button',
       toolboxButtonActive: 'ce-toolbox__button--active',
       toolboxOpened: 'ce-toolbox--opened',
-      openedToolbarHolderModifier: 'codex-editor--toolbox-opened',
+      openedToolbarHolderModifier: 'codex-editor-for-editorjs-inline--toolbox-opened',
 
       buttonTooltip: 'ce-toolbox-button-tooltip',
       buttonShortcut: 'ce-toolbox-button-tooltip__shortcut',

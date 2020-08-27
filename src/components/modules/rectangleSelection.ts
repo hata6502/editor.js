@@ -22,11 +22,11 @@ export default class RectangleSelection extends Module {
    */
   public static get CSS(): {[name: string]: string} {
     return {
-      overlay: 'codex-editor-overlay',
-      overlayContainer: 'codex-editor-overlay__container',
-      rect: 'codex-editor-overlay__rectangle',
-      topScrollZone: 'codex-editor-overlay__scroll-zone--top',
-      bottomScrollZone: 'codex-editor-overlay__scroll-zone--bottom',
+      overlay: 'codex-editor-for-editorjs-inline-overlay',
+      overlayContainer: 'codex-editor-for-editorjs-inline-overlay__container',
+      rect: 'codex-editor-for-editorjs-inline-overlay__rectangle',
+      topScrollZone: 'codex-editor-for-editorjs-inline-overlay__scroll-zone--top',
+      bottomScrollZone: 'codex-editor-for-editorjs-inline-overlay__scroll-zone--bottom',
     };
   }
 

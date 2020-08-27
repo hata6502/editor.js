@@ -1,7 +1,7 @@
 /**
 * Editor wrapper
 */
-.codex-editor {
+.codex-editor-for-editorjs-inline {
   position: relative;
   box-sizing: border-box;
   z-index: 1;
@@ -107,7 +107,7 @@
   background-color: var(--inlineSelectionColor);
 }
 
-.codex-editor--toolbox-opened [contentEditable=true][data-placeholder]:focus::before {
+.codex-editor-for-editorjs-inline--toolbox-opened [contentEditable=true][data-placeholder]:focus::before {
   opacity: 0 !important;
 }
 

@@ -42,7 +42,7 @@
   /**
    * In narrow mode, we increase right zone contained Block Actions button
    */
-  --narrow-mode-right-padding: 50px;
+  --narrow-mode-right-padding: 16px;
 
   /**
    * Toolbar buttons height and width

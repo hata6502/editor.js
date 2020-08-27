@@ -389,7 +389,7 @@ export function debounce(func: () => void, wait?: number, immediate?: boolean): 
  * @param text - text to copy
  */
 export function copyTextToClipboard(text): void {
-  const el = Dom.make('div', 'codex-editor-clipboard', {
+  const el = Dom.make('div', 'codex-editor-for-editorjs-inline-clipboard', {
     innerHTML: text,
   });
 

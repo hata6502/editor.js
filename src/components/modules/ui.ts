@@ -21,18 +21,18 @@ import Flipper from '../flipper';
  * @class
  *
  * @classdesc Makes Editor.js UI:
- *                <codex-editor>
+ *                <codex-editor-for-editorjs-inline>
  *                    <ce-redactor />
  *                    <ce-toolbar />
  *                    <ce-inline-toolbar />
- *                </codex-editor>
+ *                </codex-editor-for-editorjs-inline>
  *
  * @typedef {UI} UI
  * @property {EditorConfig} config   - editor configuration {@link EditorJS#configuration}
  * @property {object} Editor         - available editor modules {@link EditorJS#moduleInstances}
  * @property {object} nodes          -
  * @property {Element} nodes.holder  - element where we need to append redactor
- * @property {Element} nodes.wrapper  - <codex-editor>
+ * @property {Element} nodes.wrapper  - <codex-editor-for-editorjs-inline>
  * @property {Element} nodes.redactor - <ce-redactor>
  */
 export default class UI extends Module {
@@ -46,12 +46,12 @@ export default class UI extends Module {
     editorLoader: string; editorEmpty: string;
     } {
     return {
-      editorWrapper: 'codex-editor',
-      editorWrapperNarrow: 'codex-editor--narrow',
-      editorZone: 'codex-editor__redactor',
-      editorZoneHidden: 'codex-editor__redactor--hidden',
-      editorLoader: 'codex-editor__loader',
-      editorEmpty: 'codex-editor--empty',
+      editorWrapper: 'codex-editor-for-editorjs-inline',
+      editorWrapperNarrow: 'codex-editor-for-editorjs-inline--narrow',
+      editorZone: 'codex-editor-for-editorjs-inline__redactor',
+      editorZoneHidden: 'codex-editor-for-editorjs-inline__redactor--hidden',
+      editorLoader: 'codex-editor-for-editorjs-inline__loader',
+      editorEmpty: 'codex-editor-for-editorjs-inline--empty',
     };
   }
 
@@ -281,7 +281,7 @@ export default class UI extends Module {
      */
     // eslint-disable-next-line @typescript-eslint/no-var-requires
     const styles = require('../../styles/main.css');
-    const styleTagId = 'editor-js-styles';
+    const styleTagId = 'editorjs-for-editorjs-inline-styles';
 
     /**
      * Do not append styles again if they are already on the page
