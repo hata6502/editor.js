@@ -119,6 +119,6 @@
  */
 .codex-editor-for-editorjs-inline--narrow .ce-toolbar__plus {
   @media (--not-mobile) {
-    left: 5px;
+    left: -8px;
   }
 }

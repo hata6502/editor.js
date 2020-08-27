@@ -11,6 +11,8 @@
   }
 
   &__redactor {
+    min-width: 16px;
+
     &--hidden {
       display: none;
     }
