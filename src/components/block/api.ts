@@ -31,7 +31,7 @@ function BlockAPI(block: Block): void {
     },
 
     /**
-     * .ce-block element, that wraps plugin contents
+     * .ce-block-for-editorjs-inline element, that wraps plugin contents
      *
      * @returns {HTMLElement}
      */

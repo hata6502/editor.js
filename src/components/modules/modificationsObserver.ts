@@ -139,7 +139,7 @@ export default class ModificationsObserver extends Module {
           break;
         case 'attributes':
           /**
-           * Changes on Element.ce-block usually is functional
+           * Changes on Element.ce-block-for-editorjs-inline usually is functional
            */
           if (!(mutation.target as Element).classList.contains(Block.CSS.wrapper)) {
             contentMutated = true;

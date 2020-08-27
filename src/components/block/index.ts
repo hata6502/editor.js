@@ -82,7 +82,7 @@ export enum BlockToolAPI {
  * @classdesc Abstract Block class that contains Block information, Tool name and Tool class instance
  *
  * @property {BlockTool} tool - Tool instance
- * @property {HTMLElement} holder - Div element that wraps block content with Tool's content. Has `ce-block` CSS class
+ * @property {HTMLElement} holder - Div element that wraps block content with Tool's content. Has `ce-block-for-editorjs-inline` CSS class
  * @property {HTMLElement} pluginsContent - HTML content that returns by Tool's render function
  */
 export default class Block {
@@ -94,11 +94,11 @@ export default class Block {
   public static get CSS(): {[name: string]: string} {
     return {
       wrapper: 'ce-block-for-editorjs-inline',
-      wrapperStretched: 'ce-block--stretched',
-      content: 'ce-block__content',
-      focused: 'ce-block--focused',
-      selected: 'ce-block--selected',
-      dropTarget: 'ce-block--drop-target',
+      wrapperStretched: 'ce-block-for-editorjs-inline--stretched',
+      content: 'ce-block-for-editorjs-inline__content',
+      focused: 'ce-block-for-editorjs-inline--focused',
+      selected: 'ce-block-for-editorjs-inline--selected',
+      dropTarget: 'ce-block-for-editorjs-inline--drop-target',
     };
   }
 
