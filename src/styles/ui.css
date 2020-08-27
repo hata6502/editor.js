@@ -43,7 +43,8 @@
 
   &__loader {
     position: relative;
-    height: 30vh;
+    height: 40px;
+    width: 40px;
 
     &::before {
       content: '';
