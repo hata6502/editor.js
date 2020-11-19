@@ -43,8 +43,5 @@
     "ClientRect": true,
     "ArrayLike": true,
     "unknown": true
-  },
-  "plugins": [
-    "cypress"
-  ]
+  }
 }
