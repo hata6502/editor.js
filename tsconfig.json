@@ -11,5 +11,6 @@
 
     // allows to omit export default in .json files
     "allowSyntheticDefaultImports": true
-  }
+  },
+  "exclude": ["cypress", "dist", "node_modules"]
 }
